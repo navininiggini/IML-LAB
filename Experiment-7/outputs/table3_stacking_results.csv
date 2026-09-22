@@ -1,0 +1,5 @@
+Base Models,Meta Learner,Avg CV Accuracy (%),Avg CV F1 Score
+SVM (RBF) + Naïve Bayes,Logistic Regression,96.48,0.9718
+Decision Tree + SVM (RBF),Logistic Regression,97.14,0.9771
+SVM (RBF) + Naïve Bayes + Decision Tree,Logistic Regression,96.7,0.9735
+SVM (RBF) + Naïve Bayes + Random Forest,Logistic Regression,96.92,0.9752

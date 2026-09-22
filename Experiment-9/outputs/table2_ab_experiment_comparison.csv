@@ -1,0 +1,4 @@
+Model,Architecture / Config,Test Accuracy (%),Precision (Weighted),Recall (Weighted),F1 Score (Weighted),Training Time (s),Epochs
+Single-Layer Perceptron (PLA from Scratch),Linear OvR (Step Activation),14.66,0.3012,0.1466,0.1387,5.81,25
+Default Multilayer Perceptron (MLP),"(100,), ReLU, Adam, lr=0.001",13.34,0.0885,0.1334,0.0997,7.06,100
+Tuned Multilayer Perceptron (MLP),"(512, 256, 128), RELU, ADAM, lr=0.001",42.96,0.4488,0.4296,0.4256,34.13,113

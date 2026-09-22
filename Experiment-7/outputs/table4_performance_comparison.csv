@@ -1,0 +1,6 @@
+Model,Accuracy (%),Precision,Recall,F1 Score
+Single Decision Tree (Baseline),91.23,0.9559,0.9028,0.9286
+Bagging,94.74,0.9583,0.9583,0.9583
+Boosting (AdaBoost),95.61,0.9467,0.9861,0.966
+Boosting (Gradient Boosting),95.61,0.9467,0.9861,0.966
+Stacked Ensemble,97.37,0.9726,0.9861,0.9793

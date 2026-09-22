@@ -1,0 +1,8 @@
+Architecture,Activation,Optimizer,Learning Rate,Val Accuracy (%),Iterations,Train Time (s)
+"(128,)",relu,ADAM,0.001,1.95,11,1.7
+"(128,)",logistic,ADAM,0.001,37.32,83,5.59
+"(128,)",tanh,ADAM,0.001,32.44,56,4.58
+"(256, 128)",relu,SGD,0.01,36.34,57,5.7
+"(256, 128)",relu,ADAM,0.001,30.24,44,3.81
+"(256, 128)",relu,ADAM,0.01,1.71,11,1.02
+"(512, 256, 128)",relu,ADAM,0.001,37.56,100,23.72

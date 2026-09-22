@@ -1,0 +1,2 @@
+Kernel,C Values Tried,Gamma Values Tried,Best Params (No-PCA),Performance (No-PCA F1),Best Params (With-PCA),Performance (With-PCA F1)
+"linear, rbf","[0.1, 1, 10]","[scale, 0.01, 0.1]","{'classifier__C': 0.1, 'classifier__gamma': 'scale', 'classifier__kernel': 'linear'}",0.9810,"{'classifier__C': 10, 'classifier__gamma': 'scale', 'classifier__kernel': 'linear'}",0.9843

@@ -1,0 +1,2 @@
+Setting,Chosen Components / Target,Explained Variance (%),Justification
+With-PCA,10 Components (95% Target),95.27%,Captures 95.27% of dataset variance while eliminating 20 redundant dimensions (66.7% reduction) and multicollinearity.

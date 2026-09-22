@@ -1,0 +1,2 @@
+k Values,Weights,Distance Metrics,Performance (No-PCA F1),Performance (With-PCA F1)
+"[3, 5, 7, 9, 11]","[uniform, distance]","[euclidean, manhattan]",0.9774,0.9742

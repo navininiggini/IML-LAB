@@ -1,0 +1,4 @@
+Algorithm,Silhouette Score,Davies-Bouldin Index,Calinski-Harabasz Index,Adjusted Rand Index (ARI),Normalized Mutual Info (NMI)
+K-Means (k=6),0.1106,2.3547,748.28,0.4153,0.5601
+DBSCAN (Density-Tuned),0.4085,1.0442,2489.61,0.3315,0.552
+"Hierarchical (Ward, k=6)",0.0973,2.4455,703.74,0.4308,0.5782

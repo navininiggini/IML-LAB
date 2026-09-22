@@ -1,0 +1,2 @@
+Smoothing Parameter,Performance (No-PCA F1),Performance (With-PCA F1)
+"var_smoothing: [1e-9, 1e-7, 1e-5, 1e-3, 1e-1]",0.9535,0.9433

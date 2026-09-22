@@ -1,0 +1,21 @@
+Model,Setting,Best CV F1,Best Parameters
+SVM,No-PCA,0.9810153888265501,"{'classifier__C': 0.1, 'classifier__gamma': 'scale', 'classifier__kernel': 'linear'}"
+SVM,With-PCA,0.9843473000341934,"{'classifier__C': 10, 'classifier__gamma': 'scale', 'classifier__kernel': 'linear'}"
+Naïve Bayes,No-PCA,0.9535201890580133,{'classifier__var_smoothing': 0.1}
+Naïve Bayes,With-PCA,0.9433118696211608,{'classifier__var_smoothing': 1e-09}
+KNN,No-PCA,0.9773897261895368,"{'classifier__metric': 'manhattan', 'classifier__n_neighbors': 3, 'classifier__weights': 'uniform'}"
+KNN,With-PCA,0.9741772824560065,"{'classifier__metric': 'manhattan', 'classifier__n_neighbors': 7, 'classifier__weights': 'uniform'}"
+Logistic Regression,No-PCA,0.9861164154764722,"{'classifier__C': 0.1, 'classifier__solver': 'lbfgs'}"
+Logistic Regression,With-PCA,0.9860856344068301,"{'classifier__C': 1, 'classifier__solver': 'lbfgs'}"
+Decision Tree,No-PCA,0.9463500176087274,"{'classifier__criterion': 'entropy', 'classifier__max_depth': 3, 'classifier__min_samples_split': 2}"
+Decision Tree,With-PCA,0.9471772110152257,"{'classifier__criterion': 'entropy', 'classifier__max_depth': 7, 'classifier__min_samples_split': 5}"
+Random Forest,No-PCA,0.9718618363471648,"{'classifier__criterion': 'entropy', 'classifier__max_depth': 10, 'classifier__n_estimators': 50}"
+Random Forest,With-PCA,0.9774176337243103,"{'classifier__criterion': 'entropy', 'classifier__max_depth': 10, 'classifier__n_estimators': 50}"
+AdaBoost,No-PCA,0.9843778110944529,"{'classifier__learning_rate': 1.0, 'classifier__n_estimators': 100}"
+AdaBoost,With-PCA,0.9810758848943057,"{'classifier__learning_rate': 1.0, 'classifier__n_estimators': 50}"
+Gradient Boosting,No-PCA,0.9613628324271083,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 100}"
+Gradient Boosting,With-PCA,0.9578505768452901,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 100}"
+XGBoost,No-PCA,0.9771734202431024,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 100}"
+XGBoost,With-PCA,0.9719823159184452,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 5, 'classifier__n_estimators': 100}"
+Stacking,No-PCA,0.9774494534109465,{'classifier__final_estimator__C': 0.1}
+Stacking,With-PCA,0.9791585988382326,{'classifier__final_estimator__C': 0.1}
