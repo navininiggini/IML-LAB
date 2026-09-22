@@ -2,6 +2,8 @@
 
 Welcome to the **Machine Learning Algorithms Laboratory (`IML-LAB`)** repository. This workspace contains end-to-end implementations of classical and modern machine learning algorithms, exploratory data analysis pipelines, model evaluations, and academic lab reports.
 
+**GitHub Repository:** [https://github.com/navininiggini/IML-LAB](https://github.com/navininiggini/IML-LAB)
+
 ---
 
 ## Repository Structure & File Context
